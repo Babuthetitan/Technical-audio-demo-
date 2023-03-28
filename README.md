@@ -1,2 +1,2 @@
-# Ambience-techniques-CryEngine
-A demo of ambience audio system and techniques using CryEngine's native audio system
+# Learning-techniques-CryEngine
+Using this cry engine breeze demo to learn the game engine and its native audio system
