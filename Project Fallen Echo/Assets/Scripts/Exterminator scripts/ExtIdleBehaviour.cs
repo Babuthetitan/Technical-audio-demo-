@@ -10,7 +10,6 @@ public class ExtIdleBehaviour : StateMachineBehaviour
 
     ExterminatorMove moveScript;
 
-    // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         moveScript = animator.gameObject.GetComponent<ExterminatorMove>();
@@ -20,12 +19,15 @@ public class ExtIdleBehaviour : StateMachineBehaviour
         timer = 2;
     }
 
-    // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
+    
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         if (Mathf.Abs(player.transform.position.x - animator.gameObject.transform.position.x) <= attackRange)
         {
             animator.SetTrigger("groundAtt");
+          
+            AkSoundEngine.PostEvent("ext_attack", animator.gameObject);
+
         }
 
         timer -= Time.deltaTime;
@@ -35,13 +37,14 @@ public class ExtIdleBehaviour : StateMachineBehaviour
             if (Random.Range(0, 2) == 0)
             {
                 animator.SetTrigger("skyAtt");
+
+                AkSoundEngine.PostEvent("ext_teleport", animator.gameObject);
             }
 
             timer = 2;
         }
     }
 
-    // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         moveScript.enabled = false;

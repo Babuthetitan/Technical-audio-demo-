@@ -82,6 +82,22 @@
 									<ObjectRef Name="spitter_receive_damage" ID="{17E91884-97D2-4BCB-A739-C5ADFC09F820}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}"/>
 									<Position X="3" Y="2"/>
 								</Module>
+								<Module>
+									<ObjectRef Name="ext_attack" ID="{04C30014-5F7B-4F8E-A88B-170414DE53FE}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}"/>
+									<Position X="4" Y="0"/>
+								</Module>
+								<Module>
+									<ObjectRef Name="ext_damage" ID="{C4E85014-3902-4243-8824-DC44BD30E427}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}"/>
+									<Position X="4" Y="1"/>
+								</Module>
+								<Module>
+									<ObjectRef Name="ext_death" ID="{A27830B2-96AB-486E-9B07-CFB79F364E05}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}"/>
+									<Position X="4" Y="2"/>
+								</Module>
+								<Module>
+									<ObjectRef Name="ext_teleport" ID="{19DACF48-FD70-4539-A2CC-92D0DE6CB075}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}"/>
+									<Position X="4" Y="3"/>
+								</Module>
 							</ModuleList>
 							<RTPCValueList ShowAll="true"/>
 							<CurrentStateList ShowAll="true"/>

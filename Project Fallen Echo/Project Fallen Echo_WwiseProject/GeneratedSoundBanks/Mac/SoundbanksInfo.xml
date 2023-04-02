@@ -24,7 +24,7 @@
 				<Bus Id="3960432351" Name="Scene ambience bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{3584F34E-35B7-7E47-5917-34304638DAC2}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{1DAAF463-E112-9FE7-D22C-6C3EE759E968}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -110,7 +110,7 @@
 				</File>
 				<File Id="1068730926" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PlayerDeath.wav</ShortName>
-					<CachePath>SFX/PlayerDeath_4D2A53CE.wem</CachePath>
+					<CachePath>SFX/PlayerDeath_30D94A25.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
@@ -234,5 +234,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{366705F5-9711-77BB-4372-E1547145F9E2}</FileHash>
+	<FileHash>{9FBFD380-E7BF-E05F-B58F-74C34DDBFB1E}</FileHash>
 </SoundBanksInfo>

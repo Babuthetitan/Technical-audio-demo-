@@ -8,7 +8,6 @@ public class EnemyDamage : MonoBehaviour
     [SerializeField] int health;
     [SerializeField] float enemyDeathTimer = 0.5f;
     [SerializeField] MonoBehaviour movementScript;
-    [SerializeField] int enemyType;
 
     Animator anim;
     GameManager gameManager;
@@ -24,7 +23,7 @@ public class EnemyDamage : MonoBehaviour
         health -= damageToDeal;
         anim.SetTrigger("isHit");
 
-        AkSoundEngine.PostEvent(gameManager.GetComponent<DamageAudio>().damageSound[enemyType], gameObject); 
+        AkSoundEngine.PostEvent("spitter_receive_damage", gameObject); 
 
         if (health <= 0)
         {
@@ -34,7 +33,7 @@ public class EnemyDamage : MonoBehaviour
 
             movementScript.enabled = false;
 
-            AkSoundEngine.PostEvent(gameManager.GetComponent<DamageAudio>().damageSound[enemyType], gameObject);
+            AkSoundEngine.PostEvent("ghoul_death", gameObject);
 
             Invoke("KillEnemy", enemyDeathTimer);
         }
