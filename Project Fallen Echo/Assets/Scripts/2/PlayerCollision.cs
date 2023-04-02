@@ -93,6 +93,8 @@ public class PlayerCollision : MonoBehaviour
                 rb.AddForce(new Vector2(knockbackForce, knockbackForce * 2) * 10, ForceMode2D.Impulse);
             }
 
+            AkSoundEngine.PostEvent("player_damage", gameObject);
+
             Invoke("RegainControl", 0.5f);
         }
     }
