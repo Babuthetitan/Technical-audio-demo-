@@ -8,6 +8,8 @@ public class MenuManager : MonoBehaviour
     public void Play()
     {
         SceneManager.LoadScene(1);
+
+        AkSoundEngine.PostEvent("stop_main_theme", gameObject);
     }
 
     public void Quit()

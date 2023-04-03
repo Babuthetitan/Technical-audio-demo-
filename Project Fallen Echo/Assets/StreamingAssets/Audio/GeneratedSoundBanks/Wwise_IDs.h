@@ -33,6 +33,7 @@ namespace AK
         static const AkUniqueID SPITTER_DEATH = 3336773763U;
         static const AkUniqueID SPITTER_PROJECTILE_SHOT = 3827607873U;
         static const AkUniqueID SPITTER_RECEIVE_DAMAGE = 1278452702U;
+        static const AkUniqueID STOP_MAIN_THEME = 2881402637U;
     } // namespace EVENTS
 
     namespace BANKS

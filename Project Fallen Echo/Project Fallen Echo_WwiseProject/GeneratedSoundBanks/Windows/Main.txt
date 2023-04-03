@@ -10,6 +10,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2635435004	ghoul_damage			\Default Work Unit\Enemy type events\Ghoul events\ghoul_damage	
 	2773040656	Play_MainMenuAmbience			\Default Work Unit\Main menu events\Play_MainMenuAmbience	
 	2818127829	ext_attack			\Default Work Unit\Enemy type events\Exterminator events\ext_attack	
+	2881402637	stop_main_theme			\Default Work Unit\Main menu events\stop_main_theme	
 	3083087645	player_death			\Default Work Unit\Player events\player_death	
 	3181097792	Play_Wind_001			\Default Work Unit\Ambiences events\Level 1 ambience\Play_Wind_001	
 	3181097795	Play_Wind_002			\Default Work Unit\Ambiences events\Level 1 ambience\Play_Wind_002	

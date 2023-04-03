@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 47e1f875d036d849b48a9b5fb5827d95
     GuidInternal: 
-    m_lastTime: -8585212932227481400
+    m_lastTime: -8585210630409060484
     List:
     - name: AAA Main bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -122,7 +122,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: cd75506b24b5a049a8b8bec218bb8454
     GuidInternal: 
-    m_lastTime: -8585212932232866276
+    m_lastTime: -8585210640915013576
     List:
     - name: Ambiences events
       guid: d998ab6d5feddf4c9be73d58bf20c716
@@ -557,7 +557,7 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: player_levelup
-      guid: c9a294c5384c504ba1f25cd012a2dea2
+      guid: b50de3b144757f4ebcb9c054421cfb8d
       id: 1793580242
       PathAndIcons:
       - ElementName: Events
@@ -571,7 +571,7 @@ MonoBehaviour:
         guid: 42a3f475020e704291ec9a164faa30be
       - ElementName: player_levelup
         ObjectType: 3
-        guid: c9a294c5384c504ba1f25cd012a2dea2
+        guid: b50de3b144757f4ebcb9c054421cfb8d
       Path: Events\Default Work Unit\Player events\player_levelup
       maxAttenuation: 0
       maxDuration: -1
@@ -705,6 +705,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: stop_main_theme
+      guid: ca00f505662f17489c6f9ed073f7e942
+      id: 2881402637
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Main menu events
+        ObjectType: 4
+        guid: 7e31da79eda07d4599190d554a979240
+      - ElementName: stop_main_theme
+        ObjectType: 3
+        guid: ca00f505662f17489c6f9ed073f7e942
+      Path: Events\Default Work Unit\Main menu events\stop_main_theme
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -762,7 +782,7 @@ MonoBehaviour:
     m_lastTime: -8585212932221724449
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 080000000b000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

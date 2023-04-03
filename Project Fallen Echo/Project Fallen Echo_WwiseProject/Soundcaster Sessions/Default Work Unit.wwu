@@ -43,10 +43,6 @@
 									<Position X="0" Y="3"/>
 								</Module>
 								<Module>
-									<ObjectRef Name="player_levelup" ID="{C594A2C9-4C38-4B50-A1F2-5CD012A2DEA2}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}"/>
-									<Position X="0" Y="4"/>
-								</Module>
-								<Module>
 									<ObjectRef Name="player_levelupcooldown" ID="{F32B0C7E-3D70-458D-BA29-19677032630E}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}"/>
 									<Position X="0" Y="5"/>
 								</Module>

@@ -6111,6 +6111,7 @@ GameObject:
   - component: {fileID: 558848460}
   - component: {fileID: 558848467}
   - component: {fileID: 558848466}
+  - component: {fileID: 558848468}
   m_Layer: 5
   m_Name: ContinueButton
   m_TagString: Untagged
@@ -6407,6 +6408,28 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &558848468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558848458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a479a73b7c4c61d4992f5b5766958703, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &578717982
 GameObject:
   m_ObjectHideFlags: 0

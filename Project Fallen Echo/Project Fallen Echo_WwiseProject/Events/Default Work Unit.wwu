@@ -39,6 +39,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="stop_main_theme" ID="{05F500CA-2F66-4817-9C6F-9ED073F7E942}">
+							<ChildrenList>
+								<Action Name="" ID="{E7828FAE-2FE9-47E5-9A6D-A29BB4FA098F}" ShortID="498062028">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Fallen echo main music theme" ID="{B2C45B66-1287-40E8-B27E-0E50E9459D90}" WorkUnitID="{274951DE-E15E-461F-ADCA-2B0E6068DD16}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player events" ID="{75F4A342-0E02-4270-91EC-9A164FAA30BE}" ShortID="416765340">
@@ -64,17 +78,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="PlayerJump" ID="{56D4FD0B-9B91-46FF-83B9-5A5BC986E018}" WorkUnitID="{274951DE-E15E-461F-ADCA-2B0E6068DD16}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="player_levelup" ID="{C594A2C9-4C38-4B50-A1F2-5CD012A2DEA2}">
-							<ChildrenList>
-								<Action Name="" ID="{DD6604E1-973A-4E4E-84E7-2C20929A364D}" ShortID="293902215">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="PlayerLevelup" ID="{6330C04D-A92B-428E-82ED-F0FE6A1D73D2}" WorkUnitID="{274951DE-E15E-461F-ADCA-2B0E6068DD16}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -119,6 +122,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="playerdamageContainer" ID="{E6F0F671-01FB-41F4-BAD4-23A736A6EB9A}" WorkUnitID="{274951DE-E15E-461F-ADCA-2B0E6068DD16}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_levelup" ID="{B1E30DB5-7544-4E7F-BCB9-C054421CFB8D}">
+							<ChildrenList>
+								<Action Name="" ID="{3C724F40-AF69-4F55-99BF-8718FB744A3A}" ShortID="180073222">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerLevelup" ID="{6330C04D-A92B-428E-82ED-F0FE6A1D73D2}" WorkUnitID="{274951DE-E15E-461F-ADCA-2B0E6068DD16}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

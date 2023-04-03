@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D2FA0517-EB08-9B44-334B-1D7F6A1F3198}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{FB37257F-506E-8F0B-643C-2AF752C8CFA5}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -24,7 +24,7 @@
 				<Bus Id="3960432351" Name="Scene ambience bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{1DAAF463-E112-9FE7-D22C-6C3EE759E968}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{1004B8BA-1611-CBA8-1017-36308B0B2EA5}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -231,8 +231,9 @@
 						<MediaRef Id="508404212"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2881402637" Name="stop_main_theme" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2733C5EF-F10C-4CFA-9432-92FFF4E05C6E}</FileHash>
+	<FileHash>{3CC2F1F9-EBBF-EFB6-E0F0-916EB4578BC1}</FileHash>
 </SoundBanksInfo>
