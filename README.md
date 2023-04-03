@@ -3,4 +3,6 @@ I am using my indie video game demo to showcase the ropes within C++ and Wwise e
 I have created a custom Wwise gain plugin using python dependencies, C++ within the Wwise SDK and DSP math code.
 
 
-In this repo, I have a video walkthrough to showcase everything & the project itself which will require you to have unity & Wwise 
+In this repo, I have a video walkthrough to showcase everything.  
+The project itself which will require you to have unity & Wwise but I have a folder with a zip where you can extract and play the game
+
