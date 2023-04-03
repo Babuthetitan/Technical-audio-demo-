@@ -93,7 +93,8 @@ void SteveGainFX::Execute(AkAudioBuffer* io_pBuffer)
         uFramesProcessed = 0;
         while (uFramesProcessed < io_pBuffer->uValidFrames)
         {
-            // Execute DSP in-place here
+            // DSP math to be executed here, hopefully I am doing the right thing
+            pBuf[uFramesProcessed] = pBuf[uFramesProcessed] * AK_DBTOLIN(m_pParams->RTPC.fPlaceholder);
             ++uFramesProcessed;
         }
     }
